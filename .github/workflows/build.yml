@@ -66,16 +66,15 @@ jobs:
           run: |
             cd exam
             poetry run execexam . ./tests/ --report trace --report status --report failure --report code --report setup  --no-fancy 
-          continue-on-error: true
         # Run GatorGrader: use the gatorgrade.yml in repository's root;
         # note that this runs execexam for some of the checks
         - name: Run GatorGrader with GatorGrade
+          if: always()
           run:  |
            pipx install gatorgrade
            pipx list
            cd exam
            gatorgrade --report env md GITHUB_STEP_SUMMARY
-          continue-on-error: true
         # Get the current time
         - name: Get the Current Time
           uses: josStorer/get-current-time@v2
