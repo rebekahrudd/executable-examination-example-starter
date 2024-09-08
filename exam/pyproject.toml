@@ -8,7 +8,7 @@ authors = ["Gregory M. Kapfhammer <gkapfham@allegheny.edu>"]
 python = "^3.11"
 symbex = "^1.4"
 pytest-json-report = "^1.5.0"
-execexam = "^0.1.1"
+execexam = {git = "https://github.com/GatorEducator/execexam.git", rev = "fix/correct-pytest-plugin"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
