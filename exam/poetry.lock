@@ -636,7 +636,7 @@ idna = ">=2.0.0"
 
 [[package]]
 name = "execexam"
-version = "0.2.0"
+version = "0.3.0"
 description = "ExecExam runs executable examinations, providing feedback and assistance!"
 optional = false
 python-versions = "^3.11"
@@ -658,7 +658,7 @@ validators = "^0.33.0"
 type = "git"
 url = "https://github.com/GatorEducator/execexam.git"
 reference = "fix/correct-pytest-plugin"
-resolved_reference = "1fd50cdc0a9bdc253739f4eceedbb06496d5bbf2"
+resolved_reference = "8a62cbaed3afdbdee480df277cd889ed37a462a3"
 
 [[package]]
 name = "fastapi"
