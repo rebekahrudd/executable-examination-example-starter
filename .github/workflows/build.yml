@@ -86,3 +86,5 @@ jobs:
             path: insight/insight-report-${{steps.current-time.outputs.formattedTime}}.json
             source: env
             source-arg: JSON_REPORT
+
+# testing the GHAs
