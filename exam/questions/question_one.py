@@ -8,8 +8,6 @@
 from typing import Union
 from typing import List
 
-# making a change to test my fork
-
 # Introduction: Read This First! {{{
 
 # Keep in mind these considerations as you implement the required functions:
